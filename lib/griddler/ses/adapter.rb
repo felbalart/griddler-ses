@@ -86,7 +86,7 @@ module Griddler
       end
 
       def text_part
-        multipart? ? message.text_part.body.to_s : message.body.to_s
+        message.body.to_s
       end
 
       def html_part
